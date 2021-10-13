@@ -19,7 +19,6 @@
     />
 
     <link rel="stylesheet" href="./styles.css" />
-    <link rel="stylesheet" href="./gridStyles.css" />
     <title>Free FullStack Webinar</title>
   </head>
 
@@ -29,25 +28,25 @@
         <div class="max-width-header-social-media">
           <div
             class="topnav desktopMenu-up display-header-social-media"
-            id="myTopnav"
+            
           >
             <a class="" href="#"
-              ><img src="./assets/img/fb-logo.png" width="8"
+              ><img src="./assets/img/fb-logo.png" alt="Facebook logo" width="8"
             /></a>
             <a class="" href="#"
-              ><img src="./assets/img/tw-logo.png" width="19"
+              ><img src="./assets/img/tw-logo.png" alt="Twitter logo" width="19"
             /></a>
 
-            <a class="" href="#">English</a>
+            <a class="" href="#">Spanish</a>
             <a class="" href="#">My page</a>
-            <a class="" href="#">Logout</a>
+            <a class="" href="">Logout</a>
           </div>
         </div>
       </header>
 
       <header class="header">
         <div class="max-width-header">
-          <a href="#" class="logo"
+          <a href="./index.html" class="logo"
             ><img src="./assets/img/logo.png" width="100"
           /></a>
           <div class="desktopMenu">
@@ -66,9 +65,9 @@
           </div>
 
           <div class="topnav desktopMenu-up" id="myTopnav">
-            <a class="hover_header" href="#portfolio">Program</a>
-            <a class="hover_header" href="#about">Speakers</a>
-            <a class="hover_header squareButton" href="#contact">About</a>
+            <a class="hover_header" href="#program">Program</a>
+            <a class="hover_header" href="#speakers">Speakers</a>
+            <a class="hover_header squareButton" href="./about.html">About</a>
           </div>
         </div>
       </header>
@@ -96,7 +95,7 @@
       </section>
 
       <!-- Main program -->
-      <section class="background-MainProgram">
+      <section class="background-MainProgram" id="program">
         <div class="mainProgram-container">
           <div class="mainProgram-container-title-div">
             <h1 class="mainProgram-container-title-h1">Main Program</h1>
@@ -160,7 +159,7 @@
         </div>
       </section>
       <!-- Featured Speakers -->
-      <section class="background-FeatureSpeakers">
+      <section class="background-FeatureSpeakers" id="speakers">
         <div class="mainProgram-container">
           <div class="speakersCards-container-title-div">
             <h1 class="featuredSpeakers-container-title-h1">
@@ -170,104 +169,16 @@
           </div>
 
           <!-- Speakers cards -->
-          <div class="speakersCards-container">
+          <div class="speakersCards-container" id="speakerCards">
             <!-- Individual card -->
-            <div class="speakersCards-container-group">
-              <div class="speakersCards-container-one">
-                <img src="./assets/img/speaker1.png" width="150" />
-                <div class="speakersCards-container-one-text">
-                  <span>Jordan Walke</span>
-                  <h6 class="speakersCards-container-one-text-h6-sub">
-                    Former Employee at Facebook and creator of React js library.
-                  </h6>
-                  <hr />
-                  <h6 class="speakersCards-container-one-text-h6">
-                    The importance of the frontend experience for developers and
-                    users.
-                  </h6>
-                </div>
-              </div>
-              <div class="speakersCards-container-one">
-                <img src="./assets/img/speaker2.png" width="150" />
-                <div class="speakersCards-container-one-text">
-                  <span>Ryan Dahl</span>
-                  <h6 class="speakersCards-container-one-text-h6-sub">
-                    Original developer of the Node js. Javascript runtime.
-                  </h6>
-                  <hr />
-                  <h6 class="speakersCards-container-one-text-h6">
-                    Using the same language in everything and the efficient use
-                    of time.
-                  </h6>
-                </div>
-              </div>
-            </div>
-            <div class="speakersCards-container-group">
-              <div class="speakersCards-container-one">
-                <img src="./assets/img/speaker3.png" width="150" />
-                <div class="speakersCards-container-one-text">
-                  <span>Yukihiro Matsumoto</span>
-                  <h6 class="speakersCards-container-one-text-h6-sub">
-                    Creator and designer of RUBY. Defender of open source
-                    projects.
-                  </h6>
-                  <hr />
-                  <h6 class="speakersCards-container-one-text-h6">
-                    Backend and high-level apps with one of the most dynamic
-                    language.
-                  </h6>
-                </div>
-              </div>
-              <div class="speakersCards-container-one">
-                <img src="./assets/img/speaker4.png" width="150" />
-                <div class="speakersCards-container-one-text">
-                  <span>Jimmy Wales</span>
-                  <h6 class="speakersCards-container-one-text-h6-sub">
-                    Co-founder of the online non-profit encyclopedia Wikipedia.
-                  </h6>
-                  <hr />
-                  <h6 class="speakersCards-container-one-text-h6">
-                    Freedom of speech and challenges in the digital era.
-                    Software policies in social apps.
-                  </h6>
-                </div>
-              </div>
-            </div>
-            <div class="speakersCards-container-group">
-              <div class="speakersCards-container-one">
-                <img src="./assets/img/speaker5.png" width="150" />
-                <div class="speakersCards-container-one-text">
-                  <span>Håkon Wium Lie</span>
-                  <h6 class="speakersCards-container-one-text-h6-sub">
-                    First to proposed the CSS technology for web in October 10
-                    of 1994.
-                  </h6>
-                  <hr />
-                  <h6 class="speakersCards-container-one-text-h6">
-                    Why styles and user experience are more important than
-                    choosing a programming language.
-                  </h6>
-                </div>
-              </div>
-              <div class="speakersCards-container-one">
-                <img src="./assets/img/speaker6.png" width="150" />
-                <div class="speakersCards-container-one-text">
-                  <span>Brendan Eich</span>
-                  <h6 class="speakersCards-container-one-text-h6-sub">
-                    Creator of the JavaScript programming language and
-                    co-founder of the Mozilla project.
-                  </h6>
-                  <hr />
-                  <h6 class="speakersCards-container-one-text-h6">
-                    The evolution of Javascript and things to come. Opinions and
-                    debate forum.
-                  </h6>
-                </div>
-              </div>
-            </div>
+          
           </div>
         </div>
       </section>
+
+
+
+
       <section class="background-partnerSection onlyDesktopVersion">
         <div class="partnerSection-container">
           <div class="partnerSection-container-title-div">
@@ -297,90 +208,40 @@
       </section>
       <section class="background-footerSection onlyDesktopVersion">
         <div>
-          <img src="./assets/img/DF-latin-conference.png" width="200"/>
+          <img src="./assets/img/DF-latin-conference.png" width="200" />
         </div>
 
         <div>
-          <span>2021 FullStack Developer Latin Conference. Guayaquil, Ecuador.</span><br/>
-          <span>Espacio dedicado al aprendizaje continuo y a la mejora del ecosistema informatico en latinoamerica.</span>
+          <span
+            >2021 FullStack Developer Latin Conference. Guayaquil,
+            Ecuador.</span
+          ><br />
+          <span
+            >Espacio dedicado al aprendizaje continuo y a la mejora del
+            ecosistema informatico en latinoamerica.</span
+          >
         </div>
       </section>
     </div>
-    <!-- <div class="mobileMenuCover" id="mobileMenuCover">
+    <div class="mobileMenuCover" id="mobileMenuCover">
       <div class="firstContainer">
         <span id="closeButton">X</span>
       </div>
       <div class="mobileMenu">
         <ul>
           <li class="mobileMenuItems">
-            <a href="#portfolio" class="mobileMenuItems-a">Portfolio</a>
+            <a href="#program" class="mobileMenuItems-a">Program</a>
           </li>
           <li class="mobileMenuItems">
-            <a href="#about" class="mobileMenuItems-a">About</a>
+            <a href="#speakers" class="mobileMenuItems-a">Speakers</a>
           </li>
           <li class="mobileMenuItems">
-            <a href="#contact" class="mobileMenuItems-a">Contact</a>
+            <a href="./about.html" class="mobileMenuItems-a">About</a>
           </li>
         </ul>
       </div>
-    </div> -->
-
-    <!-- Below here should be the modal -->
-    <!-- <div class="projectDetailsModal gray">
-      <div class="innerDiv">
-        <div class="modal-container-one">
-          <div>
-            <h4 class="title-modal-align" id="modal-title">Tonic</h4>
-          </div>
-          <span class="close-modal">x</span>
-        </div>
-
-        <div class="flex_child">
-          <span class="little_category" id="modal-category">ECOMMERCE</span>
-          <span class="gray_text">• Full Stack Dev </span>
-          <span class="gray_text" id="modal-year">• 2019</span>
-        </div>
-
-        <div class="modal-card division-modal">
-          <img
-            src="./assets/proyecto3.png"
-            alt="smartfacedetector"
-            class="modal-img"
-            id="modal-img"
-          />
-          <div class="tag-button-descripcion-container">
-            <div class="project-description division-modal" id="modal-desc">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it 1960s with the releaLorem Ipsum is simply
-              dummy text of the printing and typesetting industry. Lorem Ipsum
-              has been the industry's standard dummy text ever since the 1500s,
-              when an unknown printer took a galley of type and scrambled it
-              1960s with the relea
-            </div>
-
-            <div class="tag-button-container">
-              <div class="division-modal" id="modal-tech"></div>
-
-              <hr class="division-modal hr-style" />
-              <div class="modal-buttons-container">
-                <button type="button" class="see_project_button innerFlex" id="see_live">
-                    <span>See live</span>
-                    <img src="./assets/Icon.png" alt="live_link" />
-                </button>
-                <button type="button" class="see_project_button innerFlex" id="see_source">
-                    <span>See Source</span>
-                    <img src="./assets/github-purple.png" alt="github_link"/>
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div> -->
+    </div>
 
     <script src="./js/index.js"></script>
-    <script src="./js/formValidation.js"></script>
   </body>
 </html>
