@@ -81,6 +81,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
+- Thanks to [Cindy Shin](https://www.behance.net/adagio07) for creating this [amazing layout ⭐️](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
 - Myself and Microverse Documentation ⭐️
 
 ## 📝 License
