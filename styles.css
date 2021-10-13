@@ -23,6 +23,26 @@ body {
   background-color: #fff;
 }
 
+.topnav a {
+  text-decoration: none;
+  font-size: 14px;
+  padding: 7px 45px;
+  font-weight: 900;
+  text-shadow: 0.2px 0 #272a31;
+  letter-spacing: 1px;
+}
+
+.header-socialmedia a {
+  color: #d3d3d3;
+  font-size: 11px;
+  padding: 0 7px;
+  margin-top: 5px;
+}
+
+.programCards-link a {
+  color: whitesmoke;
+}
+
 .header li a {
   display: block;
   padding: 20px 20px;
@@ -149,7 +169,7 @@ body {
 
   .speakersCards-container-group {
     flex-direction: column !important;
-    margin-bottom: 0px !important;
+    margin-bottom: 0 !important;
   }
 
   .speakersCards-container-one {
@@ -161,7 +181,7 @@ body {
     padding: 20px;
     background-color: #ec5242;
     color: white;
-    margin: 32px 0px;
+    margin: 32px 0;
     cursor: pointer;
   }
 
@@ -185,19 +205,21 @@ body {
   }
 
   .programCards-container-single img {
-    margin: 0px 24px;
+    margin: 0 24px;
   }
 
   .programCards-container-single span {
     color: white;
     font-size: 13px;
-    margin: 0px 30px !important;
+    margin: 0 30px !important;
     text-align: left;
     width: 370px;
   }
 
   .background {
     height: 470px !important;
+    background-position: unset !important;
+    background-size: contain !important;
   }
 
   .intro-date {
@@ -207,6 +229,7 @@ body {
   .header .logo {
     display: none !important;
   }
+
   .intro-text {
     border: 4px solid white;
     padding: 18px;
@@ -214,6 +237,7 @@ body {
     margin-bottom: 19px;
     margin-top: 23px;
   }
+
   .intro-text span {
     font-size: 12px;
   }
@@ -225,8 +249,9 @@ body {
   .intro-title {
     font-size: 20px !important;
   }
+
   .intro-header-container {
-    padding: 73px 20px 0px 20px !important;
+    padding: 73px 20px 0 20px !important;
   }
 }
 
@@ -234,6 +259,7 @@ body {
   .header .logo {
     display: block !important;
   }
+
   .desktopMenu {
     display: none !important;
   }
@@ -257,6 +283,7 @@ body {
     max-width: 1350px;
     margin: auto;
   }
+
   .max-width-header-social-media {
     width: 100%;
     display: flex;
@@ -297,22 +324,12 @@ body {
   font-family: "Lato", sans-serif;
 }
 
-.topnav a {
-  text-decoration: none;
-  font-size: 14px;
-  padding: 7px 45px;
-  font-weight: 900;
-  text-shadow: 0.2px 0 #272a31;
-  letter-spacing: 1px;
-  font-weight: bold;
+.hover_header {
+  color: #3e3e3e;
 }
 
 .hover_header:hover {
   color: #fa4228;
-}
-
-.hover_header {
-  color: #3e3e3e;
 }
 
 .header-socialmedia {
@@ -320,13 +337,6 @@ body {
   height: 28px;
   display: none;
   justify-content: center;
-}
-
-.header-socialmedia a {
-  color: #d3d3d3;
-  font-size: 11px;
-  padding: 0 7px;
-  margin-top: 5px;
 }
 
 .squareButton {
@@ -359,7 +369,6 @@ body {
   background-size: cover;
   width: 100%;
   max-width: 1300px;
-  height: fit-content;
   margin: auto;
 }
 
@@ -367,7 +376,6 @@ body {
   background-color: #f8f8f8;
   width: 100%;
   max-width: 1300px;
-  height: fit-content;
   margin: auto;
 }
 
@@ -379,7 +387,7 @@ body {
 }
 
 .intro-header-container {
-  padding: 110px 0px 0px 45px;
+  padding: 110px 0 0 45px;
 }
 
 .intro-title {
@@ -436,7 +444,7 @@ body {
   text-align: center;
   margin: 2px;
   margin-top: 40px;
-  padding: 19px 0px;
+  padding: 19px 0;
   background: rgba(255, 255, 255, 0.1);
   display: flex;
   flex-direction: column;
@@ -457,16 +465,12 @@ body {
 .programCards-container-single span {
   color: white;
   font-size: 12px;
-  margin: 0px 14px;
+  margin: 0 14px;
 }
 
 .programCards-link {
   margin-top: 50px;
   margin-bottom: 50px;
-}
-
-.programCards-link a {
-  color: whitesmoke;
 }
 
 .programCards-button {
@@ -550,7 +554,6 @@ body {
   background-color: #414246;
   width: 100%;
   max-width: 1300px;
-  height: fit-content;
   margin: auto;
 }
 
@@ -585,7 +588,7 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-  margin: 20px 0px;
+  margin: 20px 0;
 }
 
 .partnerSection-logos div {
