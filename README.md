@@ -1,65 +1,79 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# FullStack Developer Latin Conference
 
-> One paragraph statement about the project.
+> This project is going to show information about the content and speakers of the next FullStack Developer Latin Conference. This is my Module one Capstone project ⭐️
 
-![screenshot](./assets/README/app_screenshot.png)
+![screenshot](./assets/img/app_screenshot.png)
 
-Additional description about the project and its features.
+This conference website is fully responsive and has a great design, the mobile menu has a nice transition when its opening and closing, the speakers section is dynamically generated with JS. This project does not uses any CSS frameworks, only CleanCSS and media queries. 
+
+## Live Link
+
+- Before you read all the README content, [check out the live version. ⭐️](https://rafaelechart.github.io/ModuleOne_Capstone/) 
+
+
+## Step by Step walkthrough of the website
+
+- Step by step explanation of the page BY ME 🤝. [Here.](https://www.loom.com/share/c6ab47967f80494c8aab1b1310655975) 
+
+
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML & CSS (Media Queries)
+- Javascript
+- Photoshop (Background images)
+- Linters
+- Git & Github
 
-## Live Demo
+## Repo Link
 
-[Live Demo Link](https://livedemo.com)
-
+- https://github.com/RafaelEchart/ModuleOne_Capstone
 
 ## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
 
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
+- Git in your local machine
+- Code editor (VS code, Atom, etc)
+- [HTML & CSS & JS Linters](https://github.com/microverseinc/linters-config/tree/master/html-css-js)
+- Terminal
+
 ### Setup
 
-### Install
+- git clone https://github.com/RafaelEchart/ModuleOne_Capstone
+- cd ModuleOne_Capstone
 
 ### Usage
 
+- Add the changes you want and feel free to use it in your own projects!
+
 ### Run tests
 
-### Deployment
+- Check that all the tests are correctly passed🤝
+
+### Merge
+
+- Merge it with your main branch so everybody can see your code! Don't forget to tag me 🤝
 
 
 
 ## Authors
 
-👤 **Author1**
+👤 **Author**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@rafaelechart](https://github.com/rafaelechart)
+- Twitter: [@rafaechart](https://twitter.com/rafaechart)
 
-👤 **Author2**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
 
 ## Show your support
 
@@ -67,9 +81,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Myself and Microverse Documentation ⭐️
 
 ## 📝 License
 
