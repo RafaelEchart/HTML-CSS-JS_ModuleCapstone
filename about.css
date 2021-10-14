@@ -1,26 +1,8 @@
-.background-aboutPage {
-  background: url(./assets/img/about-banner.png);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-color: #f7f7f7;
-  width: 100%;
-  max-width: 1300px;
-  margin: auto;
-  height: 620px;
-  display: flex;
-}
-
 .intro-header-container-aboutPage {
   text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-.image-title-aboutPage {
-  width: 60%;
-  margin-top: 90px;
 }
 
 .intro-text-aboutPage {
@@ -34,7 +16,7 @@
 
 .intro-text-aboutPage span {
   color: gray;
-  font-size: 13px;
+  font-size: 16px;
   font-weight: 900;
 }
 
@@ -63,18 +45,14 @@
   font-weight: 900;
 }
 
-.mainProgram-p-aboutpage {
-  text-align: center;
-  font-size: 12px;
-  font-weight: 600;
-}
-
 .winning-logo {
+  text-align: center;
   margin: 35px 0;
 }
 
 .winning-logo img {
   border: 0.1px solid #ececec;
+  width: 80%;
 }
 
 .border-top {
@@ -89,35 +67,7 @@
 }
 
 .hr_submit_logo {
-  width: 7% !important;
-}
-
-.pastSubmits_container {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin: 50px 0;
-}
-
-.background-past1 {
-  background-image: url(./assets/img/past1.jpg);
-  width: 275px;
-  height: 135px;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin: 0 10px;
-}
-
-.background-past2 {
-  background-image: url(./assets/img/past2.jpg);
-  width: 275px;
-  height: 135px;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin: 0 10px;
+  width: 7%;
 }
 
 .color-background-past {
@@ -142,68 +92,69 @@
   text-shadow: 0.1px 0 #e5e5e5;
 }
 
-@media only screen and (max-width: 768px) {
-  .intro-title-aboutPage {
-    font-size: 23px !important;
-  }
+.intro-title-aboutPage {
+  font-size: 23px;
+}
 
-  .partnerSection-container-title-h1-aboutSection {
-    color: white !important;
-  }
+.partnerSection-container-title-h1-aboutSection {
+  color: white;
+}
 
-  .background-aboutPage {
-    height: 500px;
-    background-position: unset !important;
-    background-size: contain !important;
-  }
+.background-aboutPage {
+  background: url(./assets/img/about-banner.png);
+  height: 500px;
+  background-position: unset;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: #f7f7f7;
+  width: 100%;
+  max-width: 1300px;
+  margin: auto;
+  display: flex;
+}
 
-  .intro-text-aboutPage span {
-    font-size: 16px;
-  }
+.onlyMobile {
+  display: flex !important;
+}
 
-  .onlyMobile {
-    display: flex !important;
-  }
+.onlyDesktop {
+  display: none !important;
+}
 
-  .onlyDesktop {
-    display: none !important;
-  }
+.image-title-aboutPage {
+  width: 83%;
+  margin-top: 0;
+}
 
-  .image-title-aboutPage {
-    width: 83% !important;
-    margin-top: 0 !important;
-  }
+.pastSubmits_container {
+  flex-direction: column;
+  margin: 0;
+}
 
-  /* .intro-header-container-aboutPage {
-        display: block !important;
-        text-align: initial !important;
-    } */
+.background-past1 {
+  background-image: url(./assets/img/past1.jpg);
+  width: 275px;
+  height: 135px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 20px 0 5px 0;
+}
 
-  .pastSubmits_container {
-    flex-direction: column !important;
-    margin: 0;
-  }
+.background-past2 {
+  background-image: url(./assets/img/past2.jpg);
+  width: 275px;
+  height: 135px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 8px 0 35px 0;
+}
 
-  .background-past1 {
-    margin: 20px 0 5px 0 !important;
-  }
-
-  .background-past2 {
-    margin: 8px 0 35px 0 !important;
-  }
-
-  .winning-logo img {
-    width: 80%;
-  }
-
-  .winning-logo {
-    text-align: center;
-  }
-
-  .mainProgram-p-aboutpage {
-    width: 95%;
-    text-align: center;
-  }
+.mainProgram-p-aboutpage {
+  margin: 0 12px;
+  font-size: 12px;
+  text-align: center;
 }
 
 .align {
@@ -222,7 +173,7 @@
 }
 
 .background-footerSection-aboutPage-mobile div {
-  margin: 50px;
+  margin: 15px;
 }
 
 .background-footerSection-aboutPage-mobile span {
@@ -249,18 +200,81 @@
   color: white;
 }
 
-.onlyMobile {
-  display: none;
-}
-
-.onlyDesktop {
-  display: flex;
-}
-
 .mainProgram-container-title-div hr {
   width: 10%;
 }
 
 .about-partner {
   justify-content: space-around;
+}
+
+@media only screen and (min-width: 768px) {
+  .image-title-aboutPage {
+    width: 60%;
+    margin-top: 90px;
+  }
+
+  .background-aboutPage {
+    background: url(./assets/img/about-banner.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #f7f7f7;
+    width: 100%;
+    max-width: 1300px;
+    margin: auto;
+    height: 620px;
+    display: flex;
+  }
+
+  .intro-text-aboutPage span {
+    font-size: 13px;
+  }
+
+  .onlyMobile {
+    display: none !important;
+  }
+
+  .onlyDesktop {
+    display: flex !important;
+  }
+
+  .pastSubmits_container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 50px 0;
+  }
+
+  .background-past1 {
+    background-image: url(./assets/img/past1.jpg);
+    width: 275px;
+    height: 135px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 10px;
+  }
+
+  .background-past2 {
+    background-image: url(./assets/img/past2.jpg);
+    width: 275px;
+    height: 135px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 10px;
+  }
+
+  .winning-logo img {
+    border: 0.1px solid #ececec;
+    width: 100%;
+  }
+
+  .mainProgram-p-aboutpage {
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+  }
 }
