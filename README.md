@@ -44,8 +44,8 @@ To get a local copy up and running follow these simple example steps.
 
 ### Setup
 
-- git clone https://github.com/RafaelEchart/ModuleOne_Capstone
-- cd ModuleOne_Capstone
+- git clone https://github.com/RafaelEchart/HTML-CSS-JS_ModuleCapstone.git
+- cd HTML-CSS-JS_ModuleCapstone
 
 ### Usage
 
