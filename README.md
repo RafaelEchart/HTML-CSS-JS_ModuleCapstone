@@ -10,7 +10,7 @@ This conference website is fully responsive and has a great design, the mobile m
 
 ## Live Link
 
-- Before you read all the README content, [check out the live version. ⭐️](https://rafaelechart.github.io/ModuleOne_Capstone/) 
+- Before you read all the README content, [check out the live version. ⭐️](https://rafaelechart.github.io/HTML-CSS-JS_ModuleCapstone/) 
 
 
 ## Step by Step walkthrough of the website
